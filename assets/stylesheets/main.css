@@ -1,0 +1,45 @@
+.comments {
+  width: 600px;
+  padding: 20px;
+  background: #eee;
+  margin: 50px auto;
+}
+
+form {
+  width: 600px;
+  padding: 20px;
+  background: #eee;
+  margin: 50px auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 5px;
+}
+
+.comment {
+  padding-bottom: 20px;
+}
+
+.comment p {
+  margin-left: 65px;
+}
+
+.comment .image {
+  float: left;
+  margin-right: 20px;
+}
+
+.replies {
+  padding-left: 100px;
+}
+
+a.show-more {
+  color: #5566cc;
+}
