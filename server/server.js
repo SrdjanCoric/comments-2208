@@ -41,4 +41,8 @@ app.post('/api/comment_replies', (req, res) => {
   }
 });
 
+app.use((req, res) => {
+  res.status(404).send({error: 'Not found'});
+});
+
 module.exports = app;
