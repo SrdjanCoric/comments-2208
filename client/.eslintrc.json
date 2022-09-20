@@ -2,10 +2,11 @@
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
+    "plugin:react-hooks/recommended",
     "plugin:react/recommended",
     "prettier"
   ],
-  "plugins": ["react", "import"],
+  "plugins": ["react", "import", "react-hooks"],
   "rules": {
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0
