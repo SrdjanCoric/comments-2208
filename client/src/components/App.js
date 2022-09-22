@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import AddCommentForm from "./AddCommentForm";
 import Comments from "./Comments";
+import Todos from "./Todos";
 
 const App = () => {
   const [comments, setComments] = useState([]);
@@ -28,6 +29,7 @@ const App = () => {
 
   return (
     <div>
+      <Todos />
       <Comments comments={comments} setComments={setComments} />
       <AddCommentForm onSubmit={handleSubmit} />
     </div>
