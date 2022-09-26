@@ -27,7 +27,7 @@ const CommentThread = ({ comment, comments, setComments }) => {
         })}
         {comment.replies_count === comment.replies.length ? null : (
           <a href="#" className="show_more" onClick={handleMoreReplies}>
-            Show More Replies (2)
+            Show More Replies ({comment.replies_count - 1})
           </a>
         )}
       </div>
